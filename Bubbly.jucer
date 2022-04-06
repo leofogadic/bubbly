@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="zQcllj" name="Bubbly" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="X8ellC" name="Bubbly">
+    <GROUP id="{2013CEC2-75BA-ED46-B3F1-647249D990C7}" name="Resources">
+      <FILE id="FgOA3P" name="arrow_left.png" compile="0" resource="1" file="Resources/arrow_left.png"/>
+      <FILE id="QHsZdZ" name="arrow_right.png" compile="0" resource="1" file="Resources/arrow_right.png"/>
+      <FILE id="gPy2tH" name="icon.png" compile="0" resource="1" file="Resources/icon.png"/>
+      <FILE id="sBa3Sj" name="title.png" compile="0" resource="1" file="Resources/title.png"/>
+      <FILE id="eT9bs5" name="bubbles.jpg" compile="0" resource="1" file="Resources/bubbles.jpg"/>
+    </GROUP>
+    <GROUP id="{62889D8E-1ACE-96BE-DA3D-4319EB4BC285}" name="Source">
+      <FILE id="RsjtjY" name="DistributionsComponent.cpp" compile="1" resource="0"
+            file="Source/DistributionsComponent.cpp"/>
+      <FILE id="BW2Vou" name="DistributionsComponent.h" compile="0" resource="0"
+            file="Source/DistributionsComponent.h"/>
+      <FILE id="qwgZ9w" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="yFwNaG" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="veMAxN" name="Bubble.cpp" compile="1" resource="0" file="Source/Bubble.cpp"/>
+      <FILE id="dzsaLU" name="Bubble.h" compile="0" resource="0" file="Source/Bubble.h"/>
+      <FILE id="vgZxWy" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019" smallIcon="gPy2tH" bigIcon="gPy2tH">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Bubbly"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Bubbly"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../source/repos/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../source/repos/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../source/repos/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../source/repos/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../source/repos/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_core" path="../../../source/repos/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../source/repos/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../source/repos/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../../source/repos/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../source/repos/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../source/repos/tracktion_engine/modules/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../source/repos/tracktion_engine/modules/juce/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
